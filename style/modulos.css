@@ -1,0 +1,177 @@
+.activeModal{
+    display: grid;
+}
+
+
+
+.modulos{
+    display: flex;
+    flex-direction: column;
+    font-family: 'K2D';
+    justify-content: center;
+
+}
+
+.materia{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    color: #FFFFFF;
+    height: 1024px;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.materia h3, .materia h1{
+    margin-top: 100px;
+}
+
+.materia h1{
+    margin-top: 300px;
+    transform: rotate(-90deg);
+    font-size: 120px;
+    width: 1024px;
+
+
+}
+
+
+
+.humanas{
+    background: #89AAD1;
+}
+.linguagens{
+    background: #2D71C1;
+}
+
+.matematica{
+    background: #CD2A2A;
+}
+.natureza{
+    background: #6E2DA0;
+}
+
+
+
+.materia img{
+    position: relative;
+    width: 400px;
+}
+
+
+.ensino-medio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-y: hidden;
+}
+
+.imagem{
+    filter: grayscale(100%);
+    transition: 1s;
+}
+
+.imagem:hover{
+    transition: 1s;
+    width: 600px;
+    filter: grayscale(0);
+    cursor: pointer;
+}
+
+.botao-passar{
+    position: absolute;
+    display: flex;
+    z-index: 4;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    left: 94%;
+
+}
+.botao-passar i{
+    font-size: 50px;
+    color: #1e0dbb;
+}
+
+/* .fund{
+    display: grid;
+    align-items: center;
+    align-content: center;
+} */
+
+.modal{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 800px;
+    height: 700px;
+    grid-template-rows: repeat(2, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 30px;
+   margin: auto;
+   right: auto;
+   left: 29%;
+   border: 6px solid #577ba8;
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+}
+
+.humanasRei{
+    background-color: #577ba8;
+}
+.linguagensShinji{
+    background-color: #2D71C1;
+}
+.matematicaModal{
+    background-color: #CD2A2A;
+}
+.naturezaMisato{
+    background-color: #6E2DA0;
+}
+
+.atividade-modal{
+    width: 200px;
+    height: 250px;
+    background-color: #577ba8;
+    border-radius: 10px;
+    transition: 0.7s;
+    z-index: 1;
+
+}
+
+.atividade-modal:hover{
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 15px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nome-atividade{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: #262b3398;
+    z-index: 1;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.imagemAtividade{
+    position: absolute;
+    z-index: 0;
+    width: 800px;
+    height: 500px;
+    bottom: 0;
+    left: -210px;
+}
