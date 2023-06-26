@@ -1,0 +1,80 @@
+
+
+/* @keyframes mygradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+ */
+
+
+
+.start{
+    font-family: 'K2D';
+    display: flex;
+    background: linear-gradient(to right, #4644a9);
+    animation: mygradient 3s ease infinite;
+}
+
+
+
+.start h1{
+    margin-top: 150px;
+    font-size: 120px;
+    color: #FFFFFF;
+    text-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25);
+}
+
+.start-div{
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 50%;
+}
+.start-div p{
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.start-div button{
+    color: #FFFFFF;
+    font-family: 'K2D';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    align-items: center;
+    justify-content: center;
+    border-style: none;
+    margin-top: 50px;
+    height: 100px;
+    width: 250px;
+    background: #142F4E;
+    box-shadow: 15px 15px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+    border-right: 8px solid #0e223a;
+    border-bottom: 8px solid #0e223a;
+}
+
+
+.start-div button:active{
+    opacity: 80%;
+    border-right: 3px solid #0e223a;
+    border-bottom: 3px solid #0e223a;
+    font-weight: 900;
+}
+
+
+.imagem-eva-inicio{
+    position: absolute;
+    width: 800px;
+    height: 1000px;
+    right: 0;
+}
