@@ -33,9 +33,26 @@ justify-content: center;
     position: absolute;
     margin-left: 10%;
     margin-top: 15%;
+    background: rgba(20, 47, 78, 0.63);
+    box-shadow: 20px -15px 4px rgba(0, 0, 0, 0.25);
 
 }
 
 .iframe{
     display: flex;
+}
+
+@media screen and (min-width: 1800px) {
+    .cronograma iframe{
+        width: 45rem;
+        height: 29rem;
+        padding: 40px;
+        background-color: #27376F;
+        border-style: none;
+        border-radius: 10%;
+        position: absolute;
+        margin-left: 10%;
+        margin-top: 15%;
+    
+    }
 }
