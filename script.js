@@ -22,3 +22,15 @@ function instagram(){
 function github(){
     window.open('https://github.com/EnzoBDF','_blank')
 }
+
+function bruno(){
+    window.open('https://www.canva.com/design/DAFxqTbSuyE/1TRBBB3iaOrOHgSFb7Ncdg/edit?utm_content=DAFxqTbSuyE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton','_blank')
+}
+
+function charles(){
+    window.open('https://www.canva.com/design/DAFxs5aVWYw/BgckoGyd4Ikqro38CGYXWQ/edit?utm_content=DAFxs5aVWYw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton','_blank')
+}
+
+function jackson(){
+    window.open('https://www.canva.com/design/DAFxtEcNyMM/XZ0SBLgBU-WO3JmYhx67rw/edit?utm_content=DAFxtEcNyMM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton','_blank')
+}
