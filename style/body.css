@@ -11,4 +11,13 @@
     display: flex;
 
 }
+
+.linkAreas{
+    width: 100%;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
  

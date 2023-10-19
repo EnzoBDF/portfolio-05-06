@@ -13,7 +13,7 @@ header{
     position: fixed;
     z-index: 5;
     top: 0;
-    height: 90px;
+    height: 4rem;
     align-items: center;
     font-family: 'K2D';
     font-weight: 800;
@@ -29,7 +29,7 @@ header ul{
 
 header li{
     width: 100%;
-    height: 80px;
+    height: 2rem;
     display: flex;
     align-items: center;
     justify-content: center;
